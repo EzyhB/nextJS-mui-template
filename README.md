@@ -1,13 +1,23 @@
 ## About
 
-This is a Next.js + MUI v5 starter which help you to start your project a lot easier and faster.
+Next.js + MUI v5 default setup with dark theme in styles + sample components
 
 ## How to use
 
 1. download files
-2. (optional) rename the folder if you want
-3. run `npm i` or `yarn`
+2. `npm i` and install all dependencies
+3. `npm run dev`
 
-## Tutorial
-
-You can also check this [link](https://dev.to/hajhosein/nextjs-mui-v5-tutorial-2k35) for explanation.
+`dependencies`: {
+`@emotion/cache`: `^11.7.1`,
+`@emotion/react`: `^11.7.1`,
+`@emotion/server`: `^11.4.0`,
+`@emotion/styled`: `^11.6.0`,
+`@fontsource/roboto`: `^4.5.1`,
+`@mui/icons-material`: `^5.2.4`,
+`@mui/material`: `^5.2.4`,
+`next`: `^12.0.7`,
+`prop-types`: `^15.7.2`,
+`react`: `^17.0.2`,
+`react-dom`: `^17.0.2`
+}
